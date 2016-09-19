@@ -1,6 +1,6 @@
-include "demorgan.v"
+`include "demorgan.v"
 
-module demorgan_test ():
+module demorgan_test ();
 	reg A, B;
 	wire nA, nB, AorB, AandB, nAB, nAornB, nAnB, nAorB;
 
